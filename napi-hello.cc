@@ -2,7 +2,7 @@
 
 Napi::String Method(const Napi::CallbackInfo& info) {
 	Napi::Env env = info.Env();
-	return Napi::String::New(env, "Привет мри!");
+	return Napi::String::New(env, "Привет мир!");
 }
 
 Napi::Object Init(Napi::Env env, Napi::Object exports) {
